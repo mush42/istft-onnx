@@ -15,7 +15,7 @@ pip3 install -r requirements.txt
 Run the script:
 
 ```python
-python3 istft_onnx
+python3 istft_onnx.py
 ```
 
 Make sure to correctly specify your `ISTFT` parameters.

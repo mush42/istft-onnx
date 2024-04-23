@@ -258,6 +258,8 @@ def main():
         input_names=["mag", "x", "y"],
         output_names=["audio"],
         dynamic_axes=dynamic_axes,
+        export_params=True,
+        do_constant_folding=True,
         opset_version=args.opset,
     )
     _LOGGER.info(f"Exported ONNX graph to {args.output}")
